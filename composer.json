@@ -1,0 +1,15 @@
+{
+    "name" : "php/lab3",
+    "description":"form",
+    "license" : "MIT",
+    "require": {
+        "endroid/qr-code": "*",
+        "aws/aws-sdk-php": "*"
+
+    },
+    "autoload": {
+        "classmap": ["classes"],
+        "files": ["config.php"]
+    }  
+
+}
